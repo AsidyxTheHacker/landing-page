@@ -1,14 +1,35 @@
 .bod {
-    background-color:#1F2937;
-}
+    
+} 
 
 .header {
     color:#F9FaF8;
     font-size: 48px;
+    font-weight: bold;
+    font-family: arial;
+    padding:10px;
 }
 
 li {
     list-style:none;
     color:#E5E7EB;
     font-size: 24px;
+    display: inline;
+    margin: 12px;
+}
+
+.flex-container {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:#E5E7EB;
+    text-decoration: none;
 }
