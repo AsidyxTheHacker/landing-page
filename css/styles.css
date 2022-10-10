@@ -43,12 +43,16 @@ ul {
     gap:150px;
 }
 
+.container img {
+    width: 25%;
+}
+
 .opener {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:12px;
+    gap:16px;
     min-width: 0;
 }
 
@@ -56,6 +60,7 @@ ul {
     font-size:48px;
     color:#F9FAF8;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .lower {
@@ -66,15 +71,54 @@ ul {
 button {
     background: #3882F6;
     color:#F9FAF8;
-    font-size: 18px;
+    font-size: 20px;
     padding:5px;
     border: 1px solid #3882F6;
     border-radius: 8px;
+    margin-top:5px;
 }
 
 .image {
     display: flex;
     width: 300px;
+    padding:10px;
+}
+
+.white-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.caption {
+    font-size: 48px;
+    font-weight: bold;
+    color:#1f2937;
+    padding:20px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.info {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    flex-direction: row;
+    font-size:24px;
+    padding:10px;
+    font-family: arial;
+}
+
+.info img {
+    height: auto;
+    max-width: 100%;
+    width:250px;
+    border: #1f2937 solid 3px;
+    box-shadow: rgb(77, 77, 77) 5px 5px 5px;
+    border-radius: 8px;
 }
 
 a:link {
