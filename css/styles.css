@@ -1,35 +1,87 @@
-.bod {
-    
-} 
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
+}
 
 .header {
-    color:#F9FaF8;
-    font-size: 48px;
-    font-weight: bold;
-    font-family: arial;
-    padding:10px;
-}
-
-li {
-    list-style:none;
-    color:#E5E7EB;
-    font-size: 24px;
-    display: inline;
-    margin: 12px;
-}
-
-.flex-container {
-    background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: #10151d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:10px;
+    flex: 1 0 auto;
+}
+.head {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: bold;
+    padding:0px;
+    margin:0;
+    text-shadow: #616161 0px 3px 0px;
+}
+
+ul {
+    list-style-type: none;
+    color:#E5E7EB;
+    display: flex;
+    font-weight: bold;
+    font-size:24px;
+    padding: 0px;
+    margin:0;
+    gap: 16px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    box-shadow: black inset 0px 5px 5px;
+    font-family: arial;
+    padding:10px;
+    gap:150px;
+}
+
+.opener {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:12px;
+    min-width: 0;
+}
+
+.upper {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.lower {
+    font-size: 24px;
+    color:#E5E7EB;
+}
+
+button {
+    background: #3882F6;
+    color:#F9FAF8;
+    font-size: 18px;
+    padding:5px;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+}
+
+.image {
+    display: flex;
+    width: 300px;
 }
 
 a:link {
+    color:#E5E7EB;
     text-decoration: none;
 }
 
 a:visited {
     color:#E5E7EB;
-    text-decoration: none;
 }
