@@ -73,9 +73,11 @@ ul {
     color:#F9FAF8;
     font-size: 20px;
     padding:5px;
-    border: 1px solid #3882F6;
+    border: 3px solid white;
     border-radius: 8px;
-    margin-top:5px; 
+    margin-top:5px;
+    cursor: inherit;
+    box-shadow: black 2px 3px 5px;
 }
 
 .image {
@@ -243,6 +245,7 @@ ul {
     border: 3px solid white;
     border-radius: 8px;
     cursor: inherit;
+    box-shadow: black 2px 3px 5px;
 }
 
 .popup-container :nth-child(3) {
