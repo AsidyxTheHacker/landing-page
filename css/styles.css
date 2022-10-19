@@ -1,5 +1,6 @@
 body {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
+    /* background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png); */
+    margin: 0px;
 }
 
 .header {
